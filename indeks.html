@@ -66,12 +66,52 @@ article a {
 article a:hover {
     text-decoration: underline;
 }
+article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
 
 
-        aside {
-            background-color: #ddd;
-            padding: 1em;
-        }
+
+       aside {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+aside h2 {
+    color: #333;
+}
+
+aside p {
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Optional: Style for a list inside the sidebar */
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside li {
+    margin-bottom: 10px;
+}
+
+aside a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
 
         footer {
             background-color: #333;
@@ -97,11 +137,14 @@ article a:hover {
     <section>
         <article>
             <h2>Artikel Pertama</h2>
+            <img src="gambar-pertama.jpg" alt="Deskripsi Gambar Pertama">
             <p>Ini adalah konten dari artikel pertama.</p>
         </article>
+        
 
         <article>
             <h2>Artikel Kedua</h2>
+            <img src="gambar-kedua.jpg" alt="Deskripsi Gambar Kedua">
             <p>Ini adalah konten dari artikel kedua.</p>
         </article>
     </section>
